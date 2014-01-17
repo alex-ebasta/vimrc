@@ -77,7 +77,7 @@ autocmd BufReadPost *
 
 set viminfo^=%
 
-" caratteri speciali:
+" special characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 "set list
 
@@ -143,6 +143,7 @@ nmap <F8> :TagbarToggle<CR>
 let g:syntastic_check_on_open=1
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
+let g:syntastic_javascript_checkers=['jshint']
 
 "f2 to open nerdtoggle
 map <F2> :NERDTreeToggle<CR>
